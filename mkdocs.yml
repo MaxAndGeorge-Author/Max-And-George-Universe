@@ -1,18 +1,15 @@
 site_name: Max & George Universe
 nav:
-    - Home: 
-        - icon: material/home
-        - index.md
+    - Home:
+        - Overview: 
+          - index.md
     - Language: 
-        - icon: material/translate
         - Overview: language/index.md
         - Grammar: language/grammar.md
     - Biology:
-        - icon: material/dna
         - Overview: biology/index.md
         - Xorakion: biology/xorakion.md
     - Characters & Places:
-        - icon: material/map-marker
         - Overview: world/index.md
 
 theme:
@@ -21,5 +18,14 @@ theme:
     primary: '#1a1a2e'    # Deep blue from avatar
     accent: '#ffd700'     # Golden color from avatar
     scheme: slate
+  features:
+    - navigation.instant
+    - navigation.sections
   icon:
-    repo: material/github
+    logo: material/dna
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
