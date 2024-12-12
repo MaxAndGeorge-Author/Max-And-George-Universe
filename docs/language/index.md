@@ -1,5 +1,3 @@
-# The Arcaxh Language
+# :material-translate: Language
 
 Overview of the Arcaxh language and its usage.
-
-More content coming soon.
