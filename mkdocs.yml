@@ -10,4 +10,10 @@ nav:
     - Characters & Places:
         - Overview: world/index.md
 
-theme: readthedocs
+theme:
+  name: material
+  palette:
+    # Dark theme
+    primary: '#1a1a2e'    # Deep blue from avatar
+    accent: '#ffd700'     # Golden color from avatar
+    scheme: slate         # Dark theme base
