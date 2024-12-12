@@ -1,19 +1,25 @@
 site_name: Max & George Universe
 nav:
-    - Home: index.md
+    - Home: 
+        - icon: material/home
+        - index.md
     - Language: 
+        - icon: material/translate
         - Overview: language/index.md
         - Grammar: language/grammar.md
     - Biology:
+        - icon: material/dna
         - Overview: biology/index.md
         - Xorakion: biology/xorakion.md
     - Characters & Places:
+        - icon: material/map-marker
         - Overview: world/index.md
 
 theme:
   name: material
   palette:
-    # Dark theme
     primary: '#1a1a2e'    # Deep blue from avatar
     accent: '#ffd700'     # Golden color from avatar
-    scheme: slate         # Dark theme base
+    scheme: slate
+  icon:
+    repo: material/github
