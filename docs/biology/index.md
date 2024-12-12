@@ -1,5 +1,3 @@
-# Biology
+# :material-dna: Biology
 
 Overview of biological systems and adaptations.
-
-More content coming soon.
