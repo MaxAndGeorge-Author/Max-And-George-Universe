@@ -21,6 +21,3 @@ For questions or discussions about the Max & George Universe, contact: [MaxAndGe
 
 ## License
 All content is © [current year]. All rights reserved.
-```
-
-How's that? We can adjust any part of it, add more details, or change the structure if you'd like it organized differently.
